@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Compaixão - Progresso das Doações</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container">
+    <section class="container-header">
+      <img src="./images/compaixao.svg" alt="compaixão" />
+      <p>Sua doação ajuda no combate a fome em Alagoas!</p>
+    </section>
+
+    <section class="container-content">
+
+      <img src="./images/qr-code.svg" alt="qr-code" />
+      <div class="content-wrapper">
+        <div class="text-container">
+          <p>COMPAIXÔMETRO</p>
+          <p>NO TRAKTO SHOW</p>
+        </div>
+
+        <div class="progress-bar-wrapper">
+          <p class="indicator" id="indicator">R$ 0,00</p>
+          <div class="progress-bar">
+            <div class="progress" id="progress"></div>
+            <img src="./images/progress-bar-indicator.svg" alt="" class="progress-indicator" id="progress-indicator" />
+          </div>
+        </div>
+        <div class="total-earnings-container" id="earningsContainer">
+          <img src="./images/pig.svg" alt="" />
+          <div class="earnings-wrapper">
+            <p>TOTAL ARRECADADO:</p>
+            <p id="total">R$ 0,00</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  <!-- <div class="footer"></div> -->
+
+  <script src="./script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+
+</body>
+
+</html>

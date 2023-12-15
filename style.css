@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --white: #f5f1ec;
+}
+
+body {
+  background-color: #ff6b6b;
+  color: var(--white);
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+.container-header {
+  display: flex;
+  align-items: center;
+
+  margin: 3.188rem 0;
+  gap: 4rem;
+}
+
+.container-header img {
+  width: 490px;
+  height: 160px;
+}
+
+.container-header p {
+  font-weight: 600;
+  font-size: 1.75rem;
+  color: #f1b15f;
+  margin-top: 3.5rem;
+  width: 100%;
+  text-wrap: nowrap;
+}
+
+.container-content {
+  padding: 1rem 0;
+  display: flex;
+  gap: 3rem;
+  padding-bottom: 6rem;
+}
+
+.content-wrapper {
+  width: 100%;
+}
+
+.text-container {
+  display: inline-flex;
+  width: 100%;
+  gap: 1.75rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-container p:nth-child(1) {
+  font-size: 3.125rem;
+  font-weight: 900;
+}
+
+.text-container p:nth-child(2) {
+  font-size: 1.875rem;
+  font-weight: 600;
+}
+
+.progress-bar-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.progress-bar {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 100%;
+  height: 20px;
+  margin: 20px 0;
+  position: relative;
+}
+
+.progress {
+  background-color: #29c6cf;
+  border-radius: 10px 0 0 10px;
+  height: 100%;
+  width: 0%;
+}
+
+.progress-indicator {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+
+.indicator {
+  font-size: 7.5rem;
+  font-weight: 900;
+}
+
+.total-earnings-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 1rem;
+  margin-left: -2.4rem;
+}
+
+.earnings-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.earnings-wrapper img {
+  width: 68px;
+  height: 73.965px;
+}
+
+.earnings-wrapper p:nth-child(1) {
+  font-size: 1.563rem;
+  font-weight: 600;
+}
+
+.earnings-wrapper p:nth-child(2) {
+  font-size: 2.813rem;
+  font-weight: 900;
+}
+
+.footer {
+  width: 100%;
+  height: 84px;
+  margin-top: 5.313rem;
+  background-image: url(/images/footer-hearts.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: fixed;
+  bottom: 0;
+}
